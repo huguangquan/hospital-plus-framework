@@ -35,6 +35,6 @@ public class CurrentAccountIdResolver implements HandlerMethodArgumentResolver {
             log.error("{}.{} 方法未登录获取accountId错误", parameter.getDeclaringClass().getName(), parameter.getMethod().getName());
             throw new HospitalPlusException(ErrorCode.forbidden.getCode().toString(), "账号未登录，获取登录用户ID异常。");
         }
-        return loginAccountId;
+        return Long.valueOf(loginAccountId);
     }
 }
