@@ -1,4 +1,4 @@
-package com.plus.hospital.framework.core.bean.enums;
+package com.plus.hospital.framework.core.enums;
 
 /**
  * 系统终端平台枚举
@@ -13,6 +13,7 @@ public enum PlatformEnum {
     patient_mobile_mini("patient_mobile_mini", "患者端小程序"),
     patient_mobile_app("patient_mobile_app", "患者端APP"),
     system_pc_operation("system_pc_operation", "运营PC工作台"),
+    monitor_system("monitor_system", "监控系统平台"),
     ;
     private String platform;
 
