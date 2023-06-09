@@ -9,7 +9,7 @@ import lombok.Data;
  * @author huguangquan
  * 2023/6/5
  **/
-public class FeignResult<T> {
+public class ResponseResult<T> {
     private static final Integer success_code = 200;
     private static final String success_message = "success";
     private static final Integer failure_code = 500;
